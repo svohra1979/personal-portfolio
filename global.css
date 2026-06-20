@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
     color: #333333;
     background-color: #242424;
-    max-width: 100vw;
+    max-width: 80vw;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -201,10 +201,13 @@ nav{
 nav a {
     margin-right: 20px;
     font-weight: 500;
-    border-left: #111111 solid 2px;
-    border-right: #111111 solid 2px;
+    
     padding-left: 2 px;
     padding-right: 2 px;
+}
+
+.navb{
+    background-color: #111111;
 }
 
  .navp{
