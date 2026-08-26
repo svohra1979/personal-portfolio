@@ -1,0 +1,62 @@
+.projects-page {
+	margin-top: 35px;
+}
+
+#projects > h1 {
+	color: aqua;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20px;
+}
+
+.project {
+	margin-bottom: 0;
+}
+
+.project p {
+	color: #333333;
+}
+
+.project a {
+	font-weight: 600;
+}
+
+.github-cta {
+	background-color: #111111;
+	border-left: 4px solid aqua;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.github-cta h2 {
+	margin: 0 0 15px;
+}
+
+.github-btn {
+	display: inline-block;
+	padding: 12px 28px;
+	font-weight: 600;
+	border: 2px solid aqua;
+	border-radius: 4px;
+	background-color: aqua;
+	color: #111111;
+	transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.github-btn:hover {
+	background-color: azure;
+	border-color: azure;
+	color: #111111;
+	text-decoration: none;
+}
+
+@media (max-width: 700px) {
+	.project-list {
+		grid-template-columns: 1fr;
+	}
+}
