@@ -1,0 +1,40 @@
+.blog-page {
+	margin-top: 35px;
+}
+
+.blog-section h1 {
+	color: aqua;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.blog-card {
+	background-color: #eeeeee;
+	border-left: 4px solid #0066cc;
+	padding: 28px 24px;
+	border-radius: 0 4px 4px 0;
+}
+
+.blog-card h2 {
+	color: #111111;
+	margin-bottom: 10px;
+}
+
+.blog-card p {
+	color: #666666;
+	margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+	.blog-page {
+		margin-top: 28px;
+	}
+
+	.blog-card {
+		padding: 22px 18px;
+	}
+
+	.blog-card h2 {
+		font-size: 1.4rem;
+	}
+}
