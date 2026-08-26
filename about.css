@@ -163,3 +163,43 @@ footer {
     color: #777777;
     font-size: 0.9rem;
 }
+
+@media (max-width: 700px) {
+    body {
+        width: calc(100% - 32px);
+        max-width: none;
+        padding: 16px 0 28px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        border-left-width: 6px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 4px 16px;
+    }
+
+    nav a {
+        margin-right: 0;
+    }
+
+    .about-hero {
+        padding-top: 35px;
+    }
+
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+
+    .about-hero h2 {
+        font-size: 1.15rem;
+    }
+
+    .skills pre {
+        white-space: normal;
+        font-size: 1rem;
+    }
+}

@@ -26,3 +26,14 @@ nav a {
     padding-right: 2px;
     color: #0066cc;
 }
+
+@media (max-width: 700px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 4px 16px;
+    }
+
+    nav a {
+        margin-right: 0;
+    }
+}

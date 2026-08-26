@@ -261,3 +261,81 @@ footer {
     color: #777777;
     font-size: 0.9rem;
 }
+
+@media (max-width: 700px) {
+    body {
+        width: calc(100% - 32px);
+        max-width: none;
+        padding: 16px 0 28px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        border-left-width: 6px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        justify-content: center;
+    }
+
+    nav a {
+        margin-right: 0;
+    }
+
+    #photo {
+        flex-direction: column;
+        justify-content: center;
+        gap: 28px;
+        min-height: auto;
+        padding: 48px 0;
+    }
+
+    #heropre {
+        width: 100%;
+        transform: none;
+        border-right: 0;
+        border-left: 3px solid aqua;
+        padding: 0 0 0 12px;
+        white-space: normal;
+    }
+
+    .profile-photo {
+        width: min(100%, 320px);
+        height: auto;
+        aspect-ratio: 1;
+        transform: none;
+        padding-right: 0;
+    }
+
+    .hero-greeting {
+        font-size: 1.25rem;
+    }
+
+    .hero-name {
+        font-size: 1.8rem;
+    }
+
+    .hero-role {
+        font-size: 1.15rem;
+    }
+
+    #hbuttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-btn {
+        text-align: center;
+    }
+
+    pre {
+        white-space: normal;
+    }
+
+    footer {
+        margin-top: 35px;
+    }
+}
